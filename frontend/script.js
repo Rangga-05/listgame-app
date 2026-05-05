@@ -1,4 +1,4 @@
-const API_URL = "/api";
+const API_URL = "http://48.193.32.18:5000/api";
 
 async function loadData() {
     try {

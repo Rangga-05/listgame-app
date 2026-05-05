@@ -15,6 +15,7 @@ spec:
       containers:
       - name: backend
         image: rangga05/listgame-backend:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 5000
         env:
@@ -54,6 +55,7 @@ spec:
       containers:
       - name: frontend
         image: rangga05/listgame-frontend:latest
+        imagePullPolicy: Always
         ports:
         - containerPort: 80
 
