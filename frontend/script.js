@@ -46,3 +46,5 @@ async function addGame() {
 }
 
 window.onload = loadData;
+
+// Update manual jam 8 pagi
